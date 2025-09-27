@@ -1,0 +1,97 @@
+{
+  "Changes": [    
+    {	
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "PeachCookie": {
+          "Name": "PeachCookie",
+          "DisplayName": "복숭아 쿠키",
+          "Description": "세레나가 만든 복숭아 모양의 쿠키. 신비로운 힘이 느껴집니다.",
+          "Type": "Basic",
+          "Category": 0,
+          "Texture": "Mods\\CBR.SEREN\\SerenObjects",
+          "SpriteIndex": 0,
+          "Edibility": 190,
+          "IsDrink": false,
+          "Buffs": [
+          {
+            "Id": "Food",
+            "BuffId": null,
+            "IconTexture": null,
+            "IconSpriteIndex": 0,
+            "Duration": 600,
+            "IsDebuff": false,
+            "GlowColor": null,
+            "CustomAttributes": {
+              "FarmingLevel": 0.0,
+              "FishingLevel": 0.0,
+              "MiningLevel": 0.0,
+              "LuckLevel": 0.0,
+              "ForagingLevel": 0.0,
+              "MaxStamina": 100.0,
+              "MagneticRadius": 0.0,
+              "Speed": 2.0,
+              "Defense": 3.0,
+              "Attack": 0.0
+            },
+            "CustomFields": null
+          }
+          ],
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "ExcludeFromFishingCollection": false,
+          "ExcludeFromShippingCollection": false,
+          "ExcludeFromRandomSale": false,
+          "ContextTags": [
+            "food_sweet"
+          ],
+          "CustomFields": null
+        },
+        "SerenPhoto": {
+          "Name": "SerenPhoto",
+          "DisplayName": "누군가의 가족사진",
+          "Description": "분홍빛의 여우 수인이 다섯 명 있습니다. 약간 바랬습니다. (이벤트 몰입용 아이템입니다. 잃어버리면 다음날 추가됩니다.)",
+          "Type": "Quest",
+          "Category": 0,
+          "Price": 0,
+          "Texture": "Mods\\CBR.SEREN\\SerenObjects",
+          "SpriteIndex": 1,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buffs": null,
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "ExcludeFromFishingCollection": false,
+          "ExcludeFromShippingCollection": false,
+          "ExcludeFromRandomSale": false,
+          "ContextTags": null,
+          "CustomFields": null
+        }
+      }
+    },
+
+    {	
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "PeachCookie" ],
+      "Entries": {
+          "Edibility": 210
+      },
+      "When": {
+        "Relationship:Seren": "Married"
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/CBR.SEREN/SerenObjects",
+      "FromFile": "assets/img/Objects/SerenObjects.png"
+    }
+
+
+
+  ]
+}

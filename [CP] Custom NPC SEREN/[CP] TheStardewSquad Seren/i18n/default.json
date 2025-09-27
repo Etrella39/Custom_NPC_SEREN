@@ -1,0 +1,202 @@
+{
+  "friendshipTooLow.Seren.1": "같이 가고 싶지만... 미안해, {{name}}. 오늘은 조금 바쁘단다.$2",
+  "friendshipTooLow.Seren.2": "물론 모험은 재미있지만, 지금은 바빠. 미안해.$2",
+  "friendshipTooLow.Seren.3": "재밌어 보인다. 그런데 지금은 바빠서...$2",
+
+  //////////////////////////////////
+
+  "recruit.Seren.low.1": "이건 데이트 신청이니, {{name}}?$6",
+  "recruit.Seren.low.2": "어머나, {{name}}. 내가 구미호인 건 자각하고 있지?$6#$b#좋아. 따라가줄게~$6",
+  "recruit.Seren.low.3": "{{name}}, 나랑 같이 가고 싶니?$6#$b#내가 귀찮게 굴어도 괜찮다면, 좋아.$6",
+
+  "dismiss.Seren.low.1": "시간이 벌써 이렇게 됐구나. 먼저 가볼게, {{name}}. 즐거웠어.$1",
+  "dismiss.Seren.low.2": "오늘은 여기까지니? 심심하면 또 부르렴.",
+  "dismiss.Seren.low.3": "이만 꼬리털 정리하러 가야겠구나. 즐거웠어, {{name}}.",
+  "dismiss.Seren.low.4": "오늘은 여기까지니? 좋아. 다음에 보자.",
+
+  "idle.Seren.low.town.1": "주민들이 네 얘기를 종종 하더라. 인기가 많네, {{name}}?",
+  "idle.Seren.low.town.2": "에블린이 돌보는 꽃은 잘 있으려나?",
+  "idle.Seren.low.town.3": "분수 쪽으로 가보자.",
+
+  "idle.Seren.low.forest.1": "숲은 언제 와도 좋아. 마음이 편안해져.",
+  "idle.Seren.low.forest.2": "자연의 소리가 아름답지?",
+  "idle.Seren.low.forest.3": "나무에 둘러싸여 있으니 행복해.",
+  "idle.Seren.low.forest.4": "레아의 집 위치가 정말 좋은 것 같지 않니?",
+
+  "idle.Seren.low.mountain.1": "라이너스 씨, 잘 계실까...",
+  "idle.Seren.low.mountain.2": "위쪽에 목욕탕이 있는 거 알고 있니?",
+
+  "idle.Seren.low.farm.1": "네 농장은 손길이 참 정성스러워.",
+  "idle.Seren.low.farm.2": "동물들이 이 농장에서 지내는 게 행복하대.",
+  "idle.Seren.low.farm.3": "풀 냄새, 흙 냄새... 내가 좋아하는 냄새들이란다.",
+  "idle.Seren.low.farm.4": "작은 숲 같았던 곳이 이렇게나 변하다니... 대단하구나.",
+
+  "idle.Seren.low.mines.1": "조심해, {{name}}. 발 밑이 미끄러울 수 있어.",
+  "idle.Seren.low.mines.2": "{{name}}, 생각보다 든든하네?",
+  "idle.Seren.low.mines.3": "멋진 탐험이 될 거야.",
+  "idle.Seren.low.mines.4": "{{name}}, 어둡진 않니? 나는 여우라 괜찮다만...",
+
+  "idle.Seren.low.generic.1": "후후, 이렇게 가만히 있으니 바람이 기분 좋네.",
+  "idle.Seren.low.generic.2": "조용히 함께 있는 것도 좋구나.",
+  "idle.Seren.low.generic.3": "벌레는 내가 다 잡아줄게~",
+
+  "attacking.Seren.low.1": "{{name}}, 뒤는 내가 지켜줄게.",
+  "attacking.Seren.low.2": "나만 믿으렴.",
+  "attacking.Seren.low.3": "다치지 않도록 조심해!",
+  "attacking.Seren.low.4": "조심해. 내가 처리할게.",
+
+  "lumbering.Seren.low.1": "네가 필요하다면 나도 거들게.",
+  "lumbering.Seren.low.2": "같이 하니까 훨씬 빠르다. 그렇지?",
+  "lumbering.Seren.low.3": "벌목은 정말 오랜만이구나. 옛날에 해봤어. 한... 300년 전 쯤?",
+
+  "mining.Seren.low.1": "{{name}}, 조심해서 휘둘러.",
+  "mining.Seren.low.2": "이건 내가 맡을게.",
+  "mining.Seren.low.3": "너랑 다니며 채굴도 해보는구나. *웃음*",
+  "mining.Seren.low.4": "{{name}}, 다치지 않게 조심해.",
+
+  "watering.Seren.low.1": "작물에 물 주니 좋구나. 너와 하니까 더.",
+  "watering.Seren.low.2": "물을 주니 생기가 돌지? 예쁘지 않니?",
+  "watering.Seren.low.3": "무럭무럭 자라렴.",
+  "watering.Seren.low.4": "이게 힐링이겠지? *웃음*",
+
+  "harvesting.Seren.low.1": "정말 잘 자랐구나! 네 노력의 결실이야.",
+  "harvesting.Seren.low.2": "품질이 좋아보이는 걸? 정말 수고했어.",
+  "harvesting.Seren.low.3": "너와 함께 작물을 수확하니 괜히 기분이 좋네.",
+
+  "foraging.Seren.low.1": "흐음, 향기가 정말 좋아. {{name}}, 네게 줄게.",
+  "foraging.Seren.low.2": "이건 향이 참 좋구나. 마음이 편해지네.",
+  "foraging.Seren.low.3": "자연은 늘 선물을 주지.",
+
+
+  //////////////////////////////
+
+  
+  "recruit.Seren.high.1": "응, 당연히 좋지! 아가와 데이트하는 건가?$1",
+  "recruit.Seren.high.2": "좋아. 지루하지 않게 해줄 거지, {{name}}?$6",
+  "recruit.Seren.high.3": "아가와 함께하는 거라면 당연히 좋지. 어디부터 갈까?$1",
+  "recruit.Seren.high.4": "응, 좋아. 너무 기대된다. 오늘은 아가랑 오랜 시간을 보낼 수 있겠구나.$1",
+
+  "dismiss.Seren.high.1": "벌써 가는 거니, 아가? 조금 더 놀면 안 돼?$2",
+  "dismiss.Seren.high.2": "오늘 정말 즐거웠어. 따라다니니 재밌던걸? 다음에 또 놀자.",
+  "dismiss.Seren.high.3": "벌써 시간이 이렇게 됐다니. 너무 아쉽다. 내일 또 데려가주련?",
+
+  "idle.Seren.high.town.1": "네가 이사온 후로 마을이 점점 생기를 되찾고 있어.",
+  "idle.Seren.high.town.2": "분수 쪽으로 가보자. 내가 거길 좋아하거든.",
+  "idle.Seren.high.town.3": "벤치에서 잠시 쉬었다 갈까?",
+  "idle.Seren.high.town.4": "함께 마을의 분위기를 만끽해서 좋다.",
+
+  "idle.Seren.high.forest.1": "숲의 공기를 좋아해. 그냥 나를 편안하게 만들어 준단다.",
+  "idle.Seren.high.forest.2": "아가, 너도 숲을 좋아하면 좋겠다.",
+  "idle.Seren.high.forest.3": "햇살이 나뭇잎 사이로 스며드는 게 참 예쁘지 않니?",
+  "idle.Seren.high.forest.4": "좋아하는 장소에 아가와 있으니 행복하네.",
+
+  "idle.Seren.high.mountain.1": "산도 숲만큼 공기가 좋지 않니?",
+
+  "idle.Seren.high.farm.1": "아가 농장, 참 예뻐. 정성이 느껴져.",
+  "idle.Seren.high.farm.2": "동물들이 날 반겨주네. 네가 돌봐서 다정한가 보구나.",
+  "idle.Seren.high.farm.3": "숲이 아니라 농장에서 사는 것도 좋을 것 같아.",
+  "idle.Seren.high.farm.4": "아가의 농장에 초대해줘서 영광이야. 너무 좋은 곳이구나.",
+
+  "idle.Seren.high.mines.1": "아가랑 같이 오니 마음이 편해.",
+  "idle.Seren.high.mines.2": "조심해, 아가가 다치면 가만있지 않을 거야.",
+  "idle.Seren.high.mines.3": "여긴 부정적인 기운이 강해서 잘 오지 않았는데... 아가랑 있으면 그냥 괜찮아.",
+  "idle.Seren.high.mines.4": "몬스터가 나온대도, 내가 곁에 있잖니?",
+
+  "idle.Seren.high.generic.1": "함께 있어서 정말 좋아.",
+  "idle.Seren.high.generic.2": "내 꼬리 빌려줄까? 따뜻할 거란다.",
+  "idle.Seren.high.generic.3": "이 순간이 계속되면 좋겠구나.",
+  "idle.Seren.high.generic.4": "{{name}}, 천천히 가도 괜찮아. 나는 네 곁에 있으니까.",
+
+  "attacking.Seren.high.1": "뒤는 내가 맡을게. 안심하고 있으렴.",
+  "attacking.Seren.high.2": "절대 다치게 두지 않아.",
+  "attacking.Seren.high.3": "내가 처리할 테니 내 옆에 있으렴.",
+  "attacking.Seren.high.4": "내가 다 해결할게, 아가.",
+
+  "lumbering.Seren.high.1": "아가 옆에서 돕는 게 제일 즐거워.",
+  "lumbering.Seren.high.2": "힘들면 조금 쉬고 있어.",
+
+  "mining.Seren.high.1": "함께 돌을 깨니 재밌네.",
+  "mining.Seren.high.2": "{{name}}, 조심해서 휘둘러.",
+  "mining.Seren.high.3": "아가, 다치지 않게 조심해.",
+  
+  "watering.Seren.high.1": "역시 아가는 농사에 소질이 있어. 작물이 정말 건강해.",
+  "watering.Seren.high.2": "무럭무럭 자라렴.",
+  "watering.Seren.high.3": "식물에게 예쁜 말을 해주면 더 빨리 자라는 건 사실이야.",
+  "watering.Seren.high.4": "물이 스며드는 소리, 참 평화롭지?",
+  
+  "harvesting.Seren.high.1": "아가, 이 결실은 네 덕분이야. 자랑스러워.",
+  "harvesting.Seren.high.2": "농부가 내 이상형이야.",
+  "harvesting.Seren.high.3": "농부와 사는 거, 정말 재밌겠다.",
+
+  "foraging.Seren.high.1": "작은 열매 하나에도 자연의 정성이 담겨 있단다.",
+  "foraging.Seren.high.2": "흐음, 향기가 좋네. 아가, 네가 가져.",
+  "foraging.Seren.high.3": "곳곳에 뿌려진 보물을 발견할 시간이네.",
+
+
+  //////////////////////////////
+
+
+  "recruit.Seren.spouse.1": "당연히 좋지, 아가와 함께하는 거라면.$1",
+  "recruit.Seren.spouse.2": "아가 옆자리는 내 거잖아? 당연히 같이 가야지.$6",
+  "recruit.Seren.spouse.3": "아가가 불러주길 기다렸어.$1#$b#어떤 모험을 하게 될지, 너무 기대돼.",
+
+  "dismiss.Seren.spouse.1": "할 일이 더 남았구나. 응, 집에서 보자, 아가.",
+  "dismiss.Seren.spouse.2": "이대로 집까지 함께 가는 건... 안 되겠지?$2#$b#알았어, 집에서 보자, 아가.",
+  "dismiss.Seren.spouse.3": "아가, 금세 보고 싶어질 거야. 알지?$2",
+  "dismiss.Seren.spouse.4": "헤어지는 건 싫은데... 더 할 일이 있는 거겠지?$2#$b#조심해서 오렴, 아가.",
+
+  "idle.Seren.spouse.town.1": "아가, 손 잡고 걷지 않으련?",
+  "idle.Seren.spouse.town.2": "함께 걷고 있어서 너무 행복해.",
+  "idle.Seren.spouse.town.3": "강가에 갈까? 그냥, 네게 기대고 싶구나.",
+  "idle.Seren.spouse.town.4": "에블린이 돌보는 꽃은 잘 있으려나.",
+
+  "idle.Seren.spouse.forest.1": "내가 숲을 좋아하는 거, 알고 온 거지? 다정해라.",
+  "idle.Seren.spouse.forest.2": "이곳의 호수, 특별한 추억이 있지.",
+  "idle.Seren.spouse.forest.3": "이 순간이 영원했으면 좋겠어.",
+
+  "idle.Seren.spouse.mountain.1": "산도 숲만큼 좋아해. 물론 아가와 와서 더.",
+  "idle.Seren.spouse.mountain.2": "오래전에 산에서 지내기도 했었단다.",
+
+  "idle.Seren.spouse.farm.1": "이 꽃들, 아가가 골라 심은 거지? 아가의 감각은 언제나 사랑스럽구나.",
+  "idle.Seren.spouse.farm.2": "항상 얘기하는 거지만, 우리 농장은 너무 멋져. 아가가 가꾸어서 그래.",
+  "idle.Seren.spouse.farm.3": "농장 곳곳에서 아가의 흔적이 느껴져.",
+  "idle.Seren.spouse.farm.4": "작물들이 행복해 보여. 아가, 네 덕분이야.",
+
+  "idle.Seren.spouse.mines.1": "아가덕에 보석이 좋아졌어. 찾으면 네게 줄게.",
+  "idle.Seren.spouse.mines.2": "아무리 위험한 곳이라도 네가 간다면 따라갈 거야.",
+  "idle.Seren.spouse.mines.3": "어두우니 조심하렴. 내게 의지해도 좋아.",
+
+  "idle.Seren.spouse.generic.1": "아가한테서 좋은 냄새 난다. 조금만 더 가까이에서 걸어도 될까?",
+  "idle.Seren.spouse.generic.2": "아가 숨소리까지 들려. 가까이 있으니까 마음이 놓이는구나.",
+  "idle.Seren.spouse.generic.3": "아가와 함께라면 어디든 우리만의 특별한 곳이 될 거란다.",
+
+  "attacking.Seren.spouse.1": "내 아가를 건드리다니, 용서 못 해.",
+  "attacking.Seren.spouse.2": "절대 다치게 두지 않아.",
+  "attacking.Seren.spouse.3": "나만 믿어. 내가 다 해결할 테니까.",
+  "attacking.Seren.spouse.4": "지금 내가 해야하는 건 너를 지키는 것 뿐이란다.",
+  "attacking.Seren.spouse.5": "아가, 다치면 안 돼. 내가 곁에 있으니 걱정 마렴.",
+  "attacking.Seren.spouse.6": "앞으로도 이런 위험한 곳은 나와 함께 오자꾸나.",
+
+  "lumbering.Seren.spouse.1": "아가 옆에서 돕는 게 제일 즐겁단다.",
+  "lumbering.Seren.spouse.2": "이런 일조차 함께하니 특별해지는 것 같구나.",
+  "lumbering.Seren.spouse.3": "아가가 한다면 뭐든 도울 거야.",
+
+  "mining.Seren.spouse.1": "역시 아가야. 능숙하구나.",
+  "mining.Seren.spouse.2": "뭐든 아가와 한다면 특별한 경험이지.",
+  "mining.Seren.spouse.3": "힘들진 않니? 내가 할 테니, 조금 쉬렴.",
+  "mining.Seren.spouse.4": "아가, 쉬어도 돼. 힘든 일은 내가 할게.",
+
+  "watering.Seren.spouse.1": "농부와 결혼하길 잘한 것 같구나~",
+  "watering.Seren.spouse.2": "이게 힐링이겠지. 작물에 물도 주고, 아가와 함께 하고.",
+  "watering.Seren.spouse.3": "식물들도 아가 마음을 알아. 항상 돌봐줘서 고맙대.",
+
+  "harvesting.Seren.spouse.1": "우리가 함께 수확해서 더 맛있을 거란다.",
+  "harvesting.Seren.spouse.2": "아가와 함께 해서 힘들어도 뭐든 좋아.",
+  "harvesting.Seren.spouse.3": "아가의 일을 돕는 거라면, 언제나 환영이야.",
+
+  "foraging.Seren.spouse.1": "숲이 우리에게 내어준 선물이야. 함께라서 더 특별하단다.",
+  "foraging.Seren.spouse.2": "손 조심하렴. 이상한 거 주울 수도 있으니까."
+
+}
+
+

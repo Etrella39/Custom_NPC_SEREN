@@ -1,0 +1,23 @@
+{
+    "spring": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1300 Town 35 79 0/1630 Town 19 63 0/1800 Forest 97 23 0/2100 Forest 47 28 3/2530 WizardHouse 11 13 2",
+	"summer": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1400 Beach 37 24/1800 Forest 38 10 2/2200 Forest 34 25 2/2530 WizardHouse 11 13 2",
+	"fall_Mon": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1200 Mountain 84 9 1/2000 Forest 47 28 3/2530 WizardHouse 11 13 2",
+	"fall": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1400 Mountain 18 7 2/1800 Town 16 72 2/2000 Forest 47 28 3 \"Strings\\schedules\\Seren:fallMon.000\"/2500 WizardHouse 11 13 2",
+	"winter": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1300 JoshHouse 18 22 1/1500 Town 65 93 2/1800 Forest 38 10 2/2000 Forest 17 92 2/2500 WizardHouse 11 13 2",
+	"winter_Sat": "GOTO fall",
+	"rain": "610 WizardHouse 11 13 2/2500 WizardHouse 11 13 2",
+
+	"Wed": "610 Forest 34 25 2/930 Town 16 72 2/1200 ArchaeologyHouse 20 5 0 Seren_book/1900 Town 77 95 2/2200 Saloon 5 19 2 Seren_Drink/2500 WizardHouse 11 13 2",
+	"Fri": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1300 Town 77 95 2/1630 Saloon 5 19 2 Seren_Drink/2500 WizardHouse 11 13 2",
+	"Sun": "GOTO Wed",
+
+	"28": "610 Town 7 65 2 Seren_Tail/1000 Town 43 77 2 Seren_sit/1300 SeedShop 14 20 0 square_3_1_0 \"Strings\\schedules\\Seren:27.000\"/1700 Town 19 63 0/1800 Forest 97 23 0/2500 WizardHouse 11 13 2",
+	"19": "610 Town 7 65 2 Seren_Tail/1000 Town 43 77 2 Seren_sit/1300 SeedShop 14 20 0 square_3_1_0/1500 SeedShop 38 20 0 \"Strings\\schedules\\Seren:19.000\"/1800 Town 19 63 0/2100 Forest 97 23 0/2500 WizardHouse 11 13 2",
+	"19_8": "610 Town 7 65 2 Seren_Tail/1000 Town 43 77 2 Seren_sit/1300 SeedShop 14 20 0 square_3_1_0/1500 SeedShop 38 20 0 \"Strings\\schedules\\Seren:19_8.000\"/1800 Town 19 63 0/2100 Forest 97 23 0/2500 WizardHouse 11 13 2",
+
+	"marriage_Mon": "610 Town 7 65 2 Seren_Tail/930 JoshHouse 4 19 2/1300 JoshHouse 18 22 1/1500 Town 65 93 2/1800 Forest 38 10 2/2000 bed",
+
+	"GreenRain": "0 WizardHouse 11 13 2",
+	"DesertFestival_3": "610 Forest 34 25 2/800 Desert 29 32 0 \"Strings\\1_6_Strings:DesertFestival_Seren\"/2250 bed",
+	"marriage_DesertFestival_3": "930 Desert 38 59 3 \"Strings\\1_6_Strings:DesertFestival_Seren_marriage\"/2250 bed"
+}

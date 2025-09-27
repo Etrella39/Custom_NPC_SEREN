@@ -1,0 +1,177 @@
+{
+	"Format": "2.0",
+
+	"CustomLocations": [
+		{
+			"Name": "CBR.SEREN_Seren10_CG",
+			"FromMapFile": "assets/Maps/Seren10_CG.tbin"
+		},
+		{
+			"Name": "CBR.SEREN_Seren10_CG2",
+			"FromMapFile": "assets/Maps/Seren10_CG2.tbin"
+		},
+		{
+			"Name": "CBR.SEREN_Seren14_CG0",
+			"FromMapFile": "assets/Maps/Seren14_CG0.tbin"
+		},
+		{
+			"Name": "CBR.SEREN_Seren14_CG1",
+			"FromMapFile": "assets/Maps/Seren14_CG1.tbin"
+		}
+	],
+  
+	"Changes": [
+
+		// Serena
+		
+		// Disposition
+		{
+			"Action": "Include",
+			"FromFile": "assets/info.json"
+		},
+
+		// Dialogue
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Seren",
+			"FromFile": "assets/null.json"
+		},
+		{  
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/Seren.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/Seren_married.json",
+			"When": {
+				"Relationship:Seren": "Married"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueSeren",
+			"FromFile": "assets/Dialogue/MarriageDialogueSeren.json"
+		},
+		{  
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/Rainy.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/SpeechBubbles.json"
+		},
+
+		{
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/NPCDialogue.json"
+		},
+
+
+		// Data
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/GiftTastes.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/Mail.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/MoviesReactions.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/PhoneCalls.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/Events.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/Weddings.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/Portrait14.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/Objects.json"
+		},
+
+		// Festival
+		{
+			"Action": "Include",
+			"FromFile": "assets/Festival/Location.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Festival/Dialogue.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Festival/DesertFestival.json"
+		},
+
+		// Schedules
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/Seren",
+			"FromFile": "assets/Schedules/Seren.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/schedules/Seren",
+			"FromFile": "assets/Schedules/ScheduleDialogueSeren.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Schedules/Animation.json"
+		},
+		
+  
+		// Img
+		{
+			"Action": "Include",
+			"FromFile": "assets/img/img.json"
+		},
+
+
+		// HDPortraits Mod
+		{
+			"Action": "Include",
+			"FromFile": "assets/img/HD/Portraits.json",
+			"When": {
+				"HasMod |contains=tlitookilakin.HDPortraits": true
+			}
+		},
+
+
+		// SpouseRoom
+		{
+			"Action": "Load",
+			"Target": "Maps/SEREN_SpouseRoom",
+			"FromFile": "assets/Maps/SpouseRoomSeren.tbin"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/SEREN_SpousePatio",
+			"FromFile": "assets/Maps/SpousePatioSeren.tbin"
+		},
+
+		// Maps
+		{
+			"Action": "Load",
+			"Target": "Maps/SEREN10_CG",
+			"FromFile": "assets/Maps/Seren10_CG.tbin"
+		},
+
+		// Other Mods
+		{
+			"Action": "Include",
+			"FromFile": "assets/OtherMods/ChangeRabbitFeet.json"
+		}
+	]
+  }

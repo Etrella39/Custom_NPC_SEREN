@@ -1,0 +1,46 @@
+[
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 8,
+    "objectID": "StardewValley.Object.Peach",
+    "minAmount": 10,
+    "maxAmount": 10
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 8,
+    "objectID": "StardewValley.Object.PeachSapling",
+    "minAmount": 2,
+    "maxAmount": 2
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 8,
+    "objectID": "StardewValley.Object.ChocolateCake",
+    "minAmount": 2,
+    "maxAmount": 2
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 8,
+    "objectID": "StardewValley.Object.PinkCake",
+    "minAmount": 2,
+    "maxAmount": 2
+  }, 
+  {
+    "minRequiredHearts": 8,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.Cookie",
+    "minAmount": 5,
+    "maxAmount": 5
+  },
+  {
+    "minRequiredHearts": 8,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.LifeElixir",
+    "minAmount": 10,
+    "maxAmount": 10
+  },
+
+
+]

@@ -1,0 +1,17 @@
+{
+  "Name": "Seren Dialogue for The Stardew Squad",
+  "Author": "ChaBeR",
+  "Version": "1.0.0",
+  "Description": "Stardew Squad 세레나의 대사를 추가합니다.",
+  "UniqueID": "ChaBeR.SerenDialogue",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "ThaliaFawnheart.TheStardewSquad",
+      "MinimumVersion": "0.3.0",
+      "IsRequired": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+	"Changes": [
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Seren",
+		"Entries": {
+			"AcceptBirthdayGift_(O)220": "%당신이 생일 축하 노래를 부릅니다.#$b#헉, 아가. 설마 생일 서프라이즈니?$3#$b#정말 고마워. 지금 너무 행복하단다.$1#$b#소원 빌라고? 응, 좋아. 아가와 내가 평생 행복하길 빌어야지.$6",
+			"AcceptBirthdayGift_(O)221": "%당신이 생일 축하 노래를 부릅니다.#$b#헉, 아가. 설마 생일 서프라이즈니?$3#$b#정말 고마워. 지금 너무 행복하단다.$1#$b#소원 빌라고? 응, 좋아. 아가와 내가 평생 행복하길 빌어야지.$6",
+			"AcceptBirthdayGift_(O)636": "정말 귀여운 생일 선물이구나?$1#$b#아가가 생일 선물로 준 이 귀여운 복숭아는 먹지 말고 아껴둬야겠다~$6#$b#내 방에 두고 매일 귀여워해줄 거야. 고마워, 아가.$4",
+			"AcceptBirthdayGift_Loved": "생일 선물 정말 고마워, 아가.$1#$b#아가와 함께 맞는 생일은 정말 기쁘지만, 네가 주는 선물 덕에 더 행복해. 고마워.$4",
+			"AcceptBirthdayGift_Positive": "생일 선물 정말 고마워, 아가. 네가 챙겨줘서 더 행복해.$1",
+			"AcceptBirthdayGift_Negative": "생일에 이런 걸 주다니. 이런 귀여운 장난은 애교로 봐줄게.$6",
+		
+			"AcceptGift_(O)636": "아, 복숭아!$1#$b#역시 아가가 직접 주는 복숭아는 내게 큰 의미가 있지. 정말 고마워.$4#$b#복숭아를 보면 아가가 생각나... 이전에도 말했지만, 이 분홍빛 말이야.$6",
+			"AcceptGift_(O)595": "요정장미! 정말 고마워, 아가.$1#$b#요정장미는 언제 봐도 예쁘지 않니? 아가처럼 말이야.$4",
+			"AcceptGift_(O)245": "좋아, 오늘은 달달한 저녁을 준비해 볼게. 고마워, 아가.$1",
+			"AcceptGift_(O)220": "헉, 오늘 무슨 날인가?$3#$b#케이크가 없어도 아가와 함께 하는 날은 언제나 특별해.$4",
+			"AcceptGift_(O)221": "헉, 오늘 무슨 날인가?$3#$b#케이크가 없어도 아가와 함께 하는 날은 언제나 특별해.$4",
+			"AcceptGift_(O)769": "아가, 이런 흥미로운 물건은 어디서 가져왔니?$1",
+			"AcceptGift_(O)203": "아가, 이런 흥미로운 음식은 어디서 가져왔니?$1",
+			"AcceptGift_category_gem": "아가 덕에 보석이 좋아졌어. 이 반짝거림이 싫지 않아. 아가를 닮은 반짝거림이야.$1#$b#항상 고마워, 아가.$4",
+			"AcceptGift_category_flowers": "$c .5#어머, 꽃! 결혼 후 받으니까 색다른 느낌이네. 너무 예뻐. 꽃도 기분이 좋아 보여.$1#어머, 꽃! 아가처럼 예쁜 꽃이네. 너무 예뻐. 꽃도 기분이 좋아 보여.$1#$b#아가가 준 꽃은 잘 돌볼게, 고마워.$4",
+			"RejectItem_(O)721": "아가, 나 달팽이 무서워하는 거 알면서!$3",
+			"RejectItem_(O)631": "오, 복숭아 나무 묘목이구나!#$b#우리 농장에 심으면 정말 좋겠다, 그렇지?$6",
+			"RejectItem_category_fish": "아가! 장난이니? 내가 살아있는 물고기를 좋아하지 않는다는 걸 알면서.$2",
+			"RejectItem_(O)446": "아가, 네가 토끼를 키우는 것은 알겠다만... 역시 토끼발은 보기가 힘드네.$2",
+			"RejectItem_(O)349": "음? 내 치유술이 필요하니, 아가? 자, 복숭아 쿠키를 줄게.$1[PeachCookie]",
+			"cropMatured_595": "우리 농장에 요정장미가 있어서 정말 좋아. 함께 소중히 돌보자.$1",
+
+			"RejectMermaidPendant_PlayerWithSomeoneElse": "아, 내가 준 펜던트니?$1#$b#아가가 준 거, 잘 간직하고 있어. 항상 몸에 지니고 다닌단다.$4#$b#펜던트에서 아가 냄새나거든.$6",
+			"Characters_MovieInvite_Invited": "영화 보자고? 응, 당연히 나도 좋지.$1#$b#너와 함께 보는 거라면 뭐든 즐겁지 않을까.$1#$b#그럼 나중에 영화관에서 보자, 아가.$4",
+
+			"married": "아가와 결혼해서 정말 행복해.#$b#매일 행복하게 해 줄게. 함께 살아가자.$1"
+		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/ExtraDialogue",
+		"Entries": {
+			"SummitEvent_Intro_Spouse": "아가, 어서 와.",
+			"SummitEvent_Intro2_Spouse": "너무나도 아름다운 풍경이야. 이 풍경을 아가와 볼 수 있어서 정말 기뻐.",
+			"SummitEvent_Intro2_Spouse_Gruff": "너무나도 아름다운 풍경이야. 이 풍경을 아가와 볼 수 있어서 정말 기뻐.",
+			"SummitEvent_Dialogue1_Spouse": "우리가 함께해 온 %year 년을 회상하고 있었어.",
+			"SummitEvent_Dialogue1B_Spouse": "우리 참 많은 일이 있었지 않니? 내가 네게 구미호인 것을 들키고... 내가 마음이 깊어져서 내 비밀까지 네게 얘기했었지. 그러다 이렇게 결혼까지 했네.$h",
+			"SummitEvent_Dialogue2_Spouse": "네가, 우리가 함께 이루어온 것들을 봐. 아가, 정말 수고했어.",
+			"SummitEvent_Dialogue3_Seren": "아가와 가족이 될 수 있어서 정말 행복해.#$b#염원했지만 꿈도 꾸지 못한 일들을 네 덕에 이룰 수 있었어. 정말 고마워, @."
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "String/Events",
+		"Entries": {
+			"HaveBabyQuestion_Adoption": "우리 아이 입양할까, 아가?",
+			"HaveBabyQuestion": "우리 아이 입양할까, 아가?",
+			"HaveBabyAnswer_Yes": "좋아요"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"Entries": {
+			"Seren_AfterWedding": "우리의 결혼식, 정말 아름다웠지?#$b#내 미래에 네가 있다니... 너무 행복해. 아가와 함께할 미래가 정말 기대되는구나.$4",
+			"Game1.cs.2782": "우리의 결혼식, 정말 아름다웠지?#$b#내 미래에 네가 있다니... 너무 행복해. 아가와 함께할 미래가 정말 기대되는구나.$4"
+		}
+	},
+
+	{
+		"LogName": "UCRC 결혼 후 대사",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Seren",
+		"Entries": {
+			"give_flowersA": "결혼 후 받는 꽃다발이라, 정말 낭만 있네.#$b#이번 꽃도 보존 요력을 걸어둘까? 아니, 시들면 아가가 다시 꽃을 주려나? *웃음*$1#$b#고마워, 아가가 주는 거라면 뭐든 좋지만, 역시 꽃은 특별한 느낌이 있구나.$4",
+			"give_flowersB": "꽃이네. 아가가 내 고백을 받아줬을 때 이 꽃을 줬었지.$4#$b#그때 생각이 나는구나. 아가, 정말 귀여웠단다.$1#$b#고마워. 아가와 꽃, 둘 다 너무 사랑스러워.",
+			"give_pendant": "아, 내가 준 펜던트니?$1#$b#아가가 준 거, 잘 간직하고 있어. 항상 몸에 지니고 다닌단다.$4#$b#펜던트에서 아가 냄새나거든.$6"
+		}
+	}
+
+]
+}
+ 
+	

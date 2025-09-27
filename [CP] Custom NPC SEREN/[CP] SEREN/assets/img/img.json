@@ -1,0 +1,85 @@
+{
+  "Changes": [
+    	{
+			"Action": "Load",
+			"Target": "Characters/Seren", 
+			"FromFile": "assets/img/Sprites/Seren.png",
+			"When": {
+				"HasDialogueAnswer|contains=CBR.SEREN_11": false
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Seren", 
+			"FromFile": "assets/img/Sprites/null.png",
+			"When": {
+				"HasDialogueAnswer": "CBR.SEREN_11"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Seren_Beach",
+			"FromFile": "assets/img/Sprites/Seren_Beach.png"
+		},
+		{ 
+			"Action": "Load",
+			"Target": "Characters/Seren_Winter",
+			"FromFile": "assets/img/Sprites/Seren_Winter.png",
+			"When": {
+				"HasDialogueAnswer|contains=CBR.SEREN_11": false
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Seren_Winter", 
+			"FromFile": "assets/img/Sprites/null.png",
+			"When": {
+				"HasDialogueAnswer": "CBR.SEREN_11"
+			}
+		},
+		{ 
+			"Action": "Load",
+			"Target": "Characters/Seren_Amber",
+			"FromFile": "assets/img/Sprites/Seren_Amber.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Seren",
+			"FromFile": "assets/img/Portraits/Seren.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Seren_Beach",
+			"FromFile": "assets/img/Portraits/Seren_Beach.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Seren_Winter",
+			"FromFile": "assets/img/Portraits/Seren_Winter.png"
+		},
+
+
+		{
+			"Action": "Load",
+			"Target": "Characters/NineTailed",
+			"FromFile": "assets/img/Sprites/NineTailed.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/NineTailed",
+			"FromFile": "assets/img/Sprites/NineTailed.png"
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/LittleWitch",
+			"FromFile": "assets/img/Sprites/LittleWitch.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/LittleWitch",
+			"FromFile": "assets/img/Portraits/LittleWitch.png"
+		}
+
+  ]
+}

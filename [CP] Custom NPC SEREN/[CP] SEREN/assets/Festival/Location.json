@@ -1,0 +1,257 @@
+  {
+  "Changes": [ 
+    {
+      "LogName": "Egg Festival",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 36 72 3",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Seren 20 64 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 36 69 3",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+          "Value": "Seren 22 69 1",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    
+    {
+      "LogName": "Flower Dance",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 3 27 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Seren 19 21 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 2 38 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+          "Value": "Seren 4 27 1",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "LogName": "Luau",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 41 17 3",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Seren 37 19 0",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 10 10 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+          "Value": "Seren 33 15 3",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    {
+      "LogName": "Luau",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 41 17 3",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Relationship:Seren |contains=Married": "false"
+      }
+    },
+    {
+      "LogName": "Luau",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 44 24 2",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Relationship:Seren": "Married"
+      }
+    },
+
+    {
+      "LogName": "Dance of the Moonlight Jellies",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 53 23 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Seren 39 33 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 51 24 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+          "Value": "Seren 13 33 1",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "LogName": "Stardew Valley Fair",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 27 61 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 32 57 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "LogName": "Spirit's Eve",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 22 25 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 34 72 0",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "LogName": "Festival of Ice",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 88 40 0",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Main-Event_additionalCharacters" ],
+          "Value": "Seren 64 39 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 78 27 0",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Main-Event_additionalCharacters_y2" ],
+          "Value": "Seren 63 40 1",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "LogName": "Feast of the Winter Star",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Seren 23 62 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+          "Value": "Seren 22 66 1",
+          "Delimiter": "/"
+        }
+      ]
+    }
+
+    
+  ]
+}

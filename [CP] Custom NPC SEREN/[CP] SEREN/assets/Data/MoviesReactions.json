@@ -1,0 +1,269 @@
+{
+  "Changes": [
+
+  {
+    "Action": "EditData",
+    "Target": "Data/Concession",
+    "Entries": {
+      "Seren_Cookie": {
+        "Id": "93",
+        "Name": "PeachCookie",
+        "DisplayName": "복숭아 쿠키",
+        "Description": "세레나가 만든 복숭아 모양의 쿠키. 단 맛이 강합니다.",
+        "Price": 50,
+        "Texture": "Mods\\CBR.SEREN\\SerenObjects",
+        "SpriteIndex": 0,
+        "ItemTags": [
+          "Sweet"
+        ]
+      }
+    }
+
+  },
+
+  { 
+    "Action": "EditData",
+    "Target": "Data/ConcessionTastes",
+    "Entries": {
+      "Seren": {
+        "Name": "Seren",
+        "LovedTags": [
+          "Sweet"
+        ],
+        "LikedTags": [
+          "Candy", "Sandwich", "Black Licorice"
+        ],
+        "DislikedTags": [
+          "Sour"
+        ]
+      }
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+      "Seren": {
+        "NPCName": "Seren",
+        "Reactions": [
+          {
+            "Tag": "*",
+            "Response": "love",
+            "Whitelist": [
+              "Evelyn"
+            ],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "어느 영화든 에블린과 보면 마음이 안정되는 기분이야."
+              },
+              "DuringMovie": null,
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "재밌었어. 또 오고 싶네."
+              }
+            },
+            "Id": "reaction_1"
+          },
+
+          // BraveLittleSapling 용감한 작고 어린 나무
+          {
+            "Tag": "spring_movie_0",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "가족을 위한 영화라고? 아...#$b#아냐, 좋아해.$1"
+              },
+              "DuringMovie": {
+                "ResponsePoint": "sprout_leave",
+                "Script": "/pause 500/message \"세레나가 슬픈 표정으로 스크린을 바라봅니다.\"",
+                "Text": "이별은 언제나 슬픈 거야...$2"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "가족들과 이별하는 건 슬펐지만, 자신의 힘으로 딛고 일어선 게 대견했어."
+              }
+            },
+            "ID": "reaction_2"
+          },
+          // JourneyOfThePrairieKing 대초원의 왕의 여정: 극장판
+          {
+            "Tag": "summer_movie_0",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "게임이 원작이라며? 게임은 잘 모르지만, 모험을 하는 영화라면 환영이야."
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "/pause 500/message \"세레나는 흥미로운 얼굴로 영화에 집중하고 있습니다.\"",
+                "Text": null
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "꽤 재밌었어. 고마워.$1"
+              }
+            },
+            "ID": "reaction_3"
+          },
+          // Mysterium 미스테리움
+          {
+            "Tag": "fall_movie_0",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "미스터리 한 것은 언제나 흥미를 이끌기 마련이지."
+              },
+                "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "정말 흥미롭네... 무엇인지 궁금하다가도, 밝혀지지 않는 게 좋은 전개인 것 같아."
+              },
+                "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "재밌었어. 오랜만에 진지하게 생각해 본 것 같구나."
+              }
+            },
+            "ID": "reaction_4"
+          },
+          // MiracleAtColdstarRanch_Scene1 콜드스타 목장의 기적
+          {
+            "Tag": "winter_movie_0",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "이 영화는 필시 기적이 일어나는 영화겠지?"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "/pause 500/message \"세레나는 약간 긴장한 것 같습니다.\"",
+                "Text": "역경의 보상이 기적이라면 도전해 볼 만하지."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "너무 좋은 영화였어.#$b#마지막에 일어났던 기적은 정말 감동적이어서 눈물이 나올 뻔 했지 뭐니. 같이 보자고 해줘서 고마워.$1"
+              }
+            },
+            "ID": "reaction_5"
+          },
+          // NaturalWonders_Title 자연의 신비: 생기 넘치는 세상의 탐험
+          {
+            "Tag": "spring_movie_1",
+            "Response": "dislike",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "다큐멘터리는 조금 지루할 것 같은데..."
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "풍경은 정말 아름답구나..."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "가볍게 보기는 좋았지만, 조금 지루했지 뭐니."
+              }
+            },
+            "ID": "reaction_6"
+          },
+          // Wumbus 웜버스
+          {
+            "Tag": "summer_movie_1",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "과학과 코미디라. 코미디는 취향이 아니지만, 과학은 흥미 있어."
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "/pause 500/message \"세레나의 표정이 미묘합니다.\"",
+                "Text": null
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "코믹한 게 강하긴 했지만... 공상과학은 정말 흥미로웠어."
+              }
+            },
+            "ID": "reaction_7"
+          },
+          // ItHowlsInTheRain_Scene1 빗속의 울부짖음
+          {
+            "Tag": "fall_movie_1",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "호러 영화구나. 무섭지 않아, 좋아해.$1"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "@, 너는 괜찮니? 무서우면 기대도 좋아.$1"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "아, 재미있었어. @의 겁에 질린 표정도 귀여웠고.$1"
+              }
+            },
+            "ID": "reaction_8"
+          },
+          // ZuzuCityExpress_Title 주주 시티 급행열차
+          {
+            "Tag": "winter_movie_1",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "옛날 감성의 영화구나. 재미있을 것 같네."
+              },
+              "DuringMovie": {
+                "ResponsePoint": "zuzucityexpress_mind_heart",
+                "Script": null,
+                "Text": "어떤 결정을 할지 궁금하네. 이성과 감정, 둘 중 무엇이 더 중요한지 답은 없으니까."
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": null,
+                "Text": "열린 결말은 독자의 흥미를 끌기 쉽지."
+              }
+            },
+            "ID": "reaction_9"
+          }
+        ]
+      }
+    }
+  }
+  ]
+}

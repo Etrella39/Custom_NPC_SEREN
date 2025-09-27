@@ -1,0 +1,33 @@
+{
+  "Changes": [
+  {	
+    "Action": "EditData",
+    "Target": "Data/IncomingPhoneCalls",
+    "Entries": {
+      "Seren_1": {
+        "TriggerCondition": "ANY \"SEASON fall, PLAYER_HEARTS Current Seren 6 10, !PLAYER_NPC_RELATIONSHIP Current Seren Married\"",
+        "RingCondition": "ANY \"SEASON fall, PLAYER_HEARTS Current Seren 6 10, !PLAYER_NPC_RELATIONSHIP Current Seren Married\"",
+        "FromNpc": "Seren",
+        "FromPortrait": null,
+        "FromDisplayName": null,
+        "Dialogue": "아가, 안녕. 세레나야.#$b#혹시 농장에 요정장미 키우니?$3#$b#요정장미는 에블린이 정말 좋아하시는 거야. 나도 에블린 덕에 좋아하게 됐거든.#$b#혹시, 하나 받을 수 있나 해서.$6#$b#없다면 실례했어. 이만 끊을게.",
+        "IgnoreBaseChance": false,
+        "MaxCalls": 1,
+        "CustomFields": null
+      },
+      "Seren_2": {
+        "TriggerCondition": "ANY \"SEASON Winter, WEATHER Here Snow, PLAYER_HEARTS Current Seren 8 10, !PLAYER_NPC_RELATIONSHIP Current Seren Married\"",
+        "RingCondition": "ANY \"SEASON Winter, WEATHER Here Snow, PLAYER_HEARTS Current Seren 8 10, !PLAYER_NPC_RELATIONSHIP Current Seren Married\"",
+        "FromNpc": "Seren",
+        "FromPortrait": null,
+        "FromDisplayName": null,
+        "Dialogue": "아가, 안녕! 세레나야. 밖에 눈 오는 거 보이니?$1#$b#아, 이 전화는 영력으로 걸고 있어. 눈 오는 게 너무 좋아서, 네 생각이 나길래 전화해 봤어.$1#$b#괜찮으면 함께 눈 구경하지 않을래?$6#$b#그럼, 나중에 보자!$1",
+        "IgnoreBaseChance": true,
+        "MaxCalls": 1,
+        "CustomFields": null
+      }
+      
+    }
+  }
+  ]
+}

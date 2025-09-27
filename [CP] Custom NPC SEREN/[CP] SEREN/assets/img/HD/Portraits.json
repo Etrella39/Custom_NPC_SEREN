@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "Action":"Load",
+      "Target":"Mods/HDPortraits/Seren, Mods/HDPortraits/Seren_Beach, Mods/HDPortraits/Seren_Winter",
+      "FromFile":"assets/img/HD/base.json"
+    },
+    {
+      "Action": "Load",
+      "Target":"Mods/CBR.SEREN/Seren, Mods/CBR.SEREN/Seren_Beach, Mods/CBR.SEREN/Seren_Winter",
+      "FromFile": "assets/img/Portraits/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action":"EditData",
+      "Target":"Mods/HDPortraits/Seren, Mods/HDPortraits/Seren_Beach, Mods/HDPortraits/Seren_Winter",
+      "Entries": {
+        "Portrait":"Mods/CBR.SEREN/{{TargetWithoutPath}}"
+      }
+    }
+  ]
+}

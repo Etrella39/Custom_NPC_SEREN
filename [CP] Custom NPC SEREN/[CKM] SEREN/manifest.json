@@ -1,0 +1,17 @@
+{
+	"Name": "[CKM] SEREN",
+	"Author": "chaBeR",
+	"Version": "1.0.0",
+	"Description": "세레나의 커스텀 키스모드 호환 팩",
+	"UniqueID": "CBR.CKMSEREN",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "CBR.SEREN"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Digus.CustomKissingMod"
+	}
+}

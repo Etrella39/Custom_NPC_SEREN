@@ -1,0 +1,50 @@
+{
+  "Changes": [
+     {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+          "Seren": "이걸 내가 받아도 되겠니? 좋아하는 거란다. 정말 고마워.$1/636 612 595/좋은 선물이구나. 마음에 들어, 고마워./376 199 211 223 614 815 768 221 220 731 208 222 232 905 906 245 423 578 577/이걸 왜 내게 주는 거니?/392 814/대신 버려주면 될까?/-4 721 729 447 446 812/좋은 선물이네. 고마워./-7 -2 -5 -19 -79 -81 373 797 74 631 769 203 349/"
+      }
+     },
+
+     {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Fields": {
+        "Seren": { 
+            "0": "역시 아가는 내 취향을 잘 아는구나. 너무 좋은 선물이네. 항상 고마워.$1",
+            "2": "역시 아가는 내 취향을 잘 아는구나. 항상 고마워.$1",
+            "4": "이런 귀여운 장난은 애교로 봐줄게.$6",
+            "6": "이런 귀여운 장난은 애교로 봐줄게.$7",
+            "8": "좋은 선물이구나. 항상 고마워, 아가.$1"
+        }
+      },
+      "When": {
+        "Hearts:Seren": "{{Range: 8, 14}}"
+      }
+     },
+     {
+      "LogName": "결혼 후 보석을 좋아하게",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+            "Operation": "RemoveDelimited",
+            "Target": [ "Entries", "Seren" ],
+            "Search": "-2",
+            "Delimiter": " "
+        },
+        {
+          "Operation": "RemoveDelimited",
+          "Target": [ "Entries", "Seren" ],
+          "Search": "74",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+				"Relationship:Seren": "Married"
+			}
+      }
+  ]
+}

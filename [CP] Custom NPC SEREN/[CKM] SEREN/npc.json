@@ -1,0 +1,10 @@
+﻿[
+	{
+		"Name": "Seren",
+		"Frame": 33,
+		"FrameDirectionRight": false,
+		"BeachFrame": 24,
+		"BeachFrameDirectionRight ": false,
+		"RequiredEvent": "CBRSeren_Evt10_2"
+	}
+]

@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Custom NPC SEREN",
+  "Author": "ChaBeR",
+  "Version": "1.1.0",
+  "Description": "커스텀 NPC 세레나를 추가합니다.",
+  "UniqueID": "CBR.SEREN",
+  "UpdateKeys": [  ],
+  "MinimumApiVersion": "3.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

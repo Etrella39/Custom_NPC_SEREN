@@ -1,0 +1,11 @@
+{
+  "Name": "Happy Birthday Content Pack SEREN",
+  "Author": "ChaBeR",
+  "Version": "1.0",
+  "Description": "세레나가 생일을 축하해 줍니다.",
+  "UniqueID": "Omegasis.HappyBirthday.ContentPack.SEREN",
+  "UpdateKeys": [  ],
+  "ContentPackFor": {
+    "UniqueID": "Omegasis.HappyBirthday"
+  }
+}

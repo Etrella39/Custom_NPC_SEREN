@@ -1,0 +1,77 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt1": "세레나와 얘기는 나누어봤니?#$b#여우라서 그런가 장난기가 있는 편이지만, 착한 아이란다. 친화력도 좋은 편이고.#$b#꽤 오래 봤는데, 한 번도 화내는 모습을 본 적이 없구나.$1#$b#본인은 착하다는 말을 듣는 것이 달갑지만은 않은 것 같지만 말이다.",
+        "eventSeen_CBRSeren_Evt7": "세레나가 알렉스를 자주 챙겨줬단다. 자기도 가족을 잃어서 알렉스가 더 신경 쓰였다고 하더구나.",
+        "dating_Seren": "@, 세레나와 연애를 하고 있다고? 좋은 일이구나. 정말 어울리는 한 쌍이야.$1",
+        "married_Seren": "오, 아가. 세레나와 결혼한 걸 축하해. 너희 둘이라면 분명 행복할 거야.$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/George",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt3": "세레나가 우리 집에 거의 매일 오니, 이제는 그냥 내 손주 같구먼.#$b#마음에 들어. 나를 대할 때 항상 눈치 보면서도 친절하거든. 지혜도 있고, 멋대로 생각하지도 않고 말이야.",
+        "dating_Seren": "세레나와 연애를 한다고... 흠. 그 아이는 착하니까, 옆에서 잘 지켜봐 줘라."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt1": "세레나 누나 말이야... 나한테 관심이 과해. 부모 같이 날 챙겨주기는 하는데...$7",
+        "eventSeen_CBRSeren_Evt3": "세레나 누나, 착하지. 처음 만났을 때 그대로야.#$b#언제 처음 만났냐고? 10년은 된 것 같은데....",
+        "dating_Seren_memory_oneday": "야, 너 세레나 누나랑 연애한다며?$7#$b#그 누나가 연애하는 건 처음 봐! 심지어 그냥 인간이랑 말이야.#$b#정말 너를 좋아하나 본데!$1",
+        "dating_Seren_memory_oneweek": "세레나 누나가 너와 연애를 하니까, 나한텐 관심을 좀 끄겠지.",
+        "married_Seren": "야! 결혼 축하해. 그 누나가 결혼할 줄은 몰랐어. 결혼에 대해서는 아예 관심 없는 줄 알았는데!#$b#너도 대단하구나!$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt1": "구미호에게 좋은 감정은 있지 않아. 그것들은 세계가 반기지 않는 존재이니.#$b#하지만 세레나는 그걸 알고 있고, 그래서 더 조용히 살고 있지. 그게 마음에 들더군.#$b#그래서 이 탑에서 잠만 자라고 허락해 줬다.",
+        "eventSeen_CBRSeren_Evt3": "그 구미호는 착하고 친절하지. 그건 부정할 수 없어. 하지만 본인은 그런 감상을 싫어하니 언행을 조심하도록.",
+        "dating_Seren": "구미호와 연애를 하다니. 너도 참 특이한 인간이군."
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt1": "혹시 세레나 언니 못 봤어요? 부탁할 게 있어서요....#$b#세레나 언니는 친절하고 부탁하면 다 들어줘요!$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt1": "세레나 씨요? 그렇게 친하지는 않지만... 정말 친절하시죠. 가끔 짖꿎은 면도 있지만요."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "eventSeen_CBRSeren_Evt1": "세레나, 여우 수인이라 신기해! 꼬리를 만져봤는데 정말 부드럽더라. 그런데 귀는 못 만지게 하더라고.#$b#성격 말이야? 여우 같아. 그런데 착해."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5367": "@이(가) 처음 펠리컨 마을에 도착했을 때, 우리 공동체에 잘 적응할 수 있을지 큰 걱정이었습니다...#$b#하지만 오늘부로, @은(는) 우리 모두처럼 마을의 일원이 된 겁니다!$h#$b#그래서 오늘, {1}의 {0}, @와(과) 세레나의 결혼의 인연으로 맺어줄 수 있어 큰 영광입니다.",
+        "Utility.cs.5369": "@이(가) 처음 펠리컨 마을에 도착했을 때, 우리 공동체에 잘 적응할 수 있을지 큰 걱정이었습니다...#$b#하지만 오늘부로, @은(는) 우리 모두처럼 마을의 일원이 된 겁니다!$h#$b#그래서 오늘, {1}의 {0}, @와(과) 세레나의 결혼의 인연으로 맺어줄 수 있어 큰 영광입니다.",
+        "Utility.cs.5373": "@... 세레나... #$b# 펠리컨 마을의 시장으로, 그리고 지역 결혼 인장의 소지자로서, 이제 그대 둘이 부부가 되었음을 선언합니다!$h",
+        "Utility.cs.5375": "@... 세레나... #$b# 펠리컨 마을의 시장으로, 그리고 지역 결혼 인장의 소지자로서, 이제 그대 둘이 부부가 되었음을 선언합니다!$h"
+      },
+      "When": {
+        "Relationship:Seren": "Engaged"
+      }
+    }
+  ]
+}

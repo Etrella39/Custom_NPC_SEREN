@@ -1,0 +1,43 @@
+{
+  "Changes": [
+    
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+      {
+          "Operation": "RemoveDelimited",
+          "Target": [ "Entries", "Seren" ],
+          "Search": "446",
+          "Delimiter": " "
+      }
+    ],
+    "When": {
+      "HasMod": "DaisyNiko.RabbitFloof, CBR.RabbitClover"
+    }
+    },
+  {	
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Seren",
+    "Entries": {
+      "AcceptGift_(O)446": "$query PLAYER_NPC_RELATIONSHIP Current Seren Married#토끼털! 아가가 토끼들을 얼마나 잘 돌봐주는지 보이네.$1#$b#내게 행운은 언제나 아가야.$4|어머! 행운의 토끼털이구나!$1#$b#내게 이 귀한 걸 줘도 괜찮니?$1#$b#네 덕에 오늘 정말 행복한 하루가 되었어. 고마워.$1",
+      "RejectItem_(O)446": null
+    },
+    "When": {
+      "HasMod| contains=DaisyNiko.RabbitFloof": "true"
+    }
+  },
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Seren",
+    "Entries": {
+      "AcceptGift_(O)446": "$query PLAYER_NPC_RELATIONSHIP Current Seren Married#행운의 네잎클로버! 아가가 토끼들을 얼마나 잘 돌봐주는지 보이네.$1#$b#내게 행운은 언제나 아가야.$4|어머! 행운의 네잎클로버구나!$1#$b#내게 이 귀한 걸 줘도 괜찮니?$1#$b#네 덕에 오늘 정말 행복한 하루가 되었어. 고마워.$1",
+      "RejectItem_(O)446": null
+    },
+    "When": {
+      "HasMod| contains=CBR.RabbitClover": "true"
+    }
+  }
+
+  ]
+}

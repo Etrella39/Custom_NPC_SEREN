@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {	
+      "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
+      "Entries": {
+          "JoshHouse_Seren_Spouse": "안녕, 아가 <",
+          "JoshHouse_Seren_Greeting1": "어서 s와, {0}."
+        }	
+    }
+  ]
+}

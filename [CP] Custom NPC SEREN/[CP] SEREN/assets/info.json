@@ -1,0 +1,256 @@
+{
+  "Changes": [
+
+    // 세레나
+    // Serena
+    // セレナ
+    // 塞雷納
+    
+    // 세레나티아 뮤리엘
+    // Serenatia Muriel
+    // セレナティア ミュリエル
+    // 塞雷納蒂亚 繆莉爾
+
+    {
+      "LogName": "Seren",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Seren": {
+          "DisplayName": "세레나",
+          "BirthSeason": "Spring",
+          "BirthDay": 19,
+          "HomeRegion": "Town",
+          "Language": "Default",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Neutral",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": false,
+          "LoveInterest": "",
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "CanSocialize": null,
+          "CanReceiveGifts": true,
+          "CanGreetNearbyCharacters": true,
+          "CanCommentOnPurchasedShopItems": null,
+          "CanVisitIsland": "!DAY_OF_WEEK Wednesday Friday",
+          "IntroductionsQuest": true,
+          "ItemDeliveryQuests": null,
+          "PerfectionScore": true,
+          "EndSlideShow": "MainGroup",
+          "SpouseAdopts": true,
+          "SpouseWantsChildren": null,
+          "SpouseGiftJealousy": null,
+          "SpouseGiftJealousyFriendshipChange": 0,
+          "SpouseRoom": {
+            "MapAsset": "SEREN_SpouseRoom"
+          },
+          "SpousePatio": {
+            "MapAsset": "SEREN_SpousePatio",
+            "SpriteAnimationFrames": [
+              [
+                19,
+                3000
+              ],
+              [
+                20,
+                200
+              ],
+              [
+                21,
+                200
+              ],
+              [
+                20,
+                200
+              ]
+            ]
+        },
+          "SpouseFloors": [],
+          "SpouseWallpapers": [],
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 28,
+          "FriendsAndFamily": {
+            "Evelyn": "",
+            "George": "",
+            "Alex": ""
+          },
+          "FlowerDanceCanDance": null,
+          "WinterStarGifts": [
+            {
+              "Id": "Winter Gift",
+              "RandomItemId": [ "(O)66", "(O)74", "(O)62", "(O)72" ]
+            }
+          ],
+          "WinterStarParticipant": true,
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "WizardHouse",
+              "Tile": { "X": 11, "Y": 13 },
+              "Direction": "down"
+            }
+          ],
+          "TextureName": null,
+          "Appearance": [
+            {
+              "Id": "Winter",
+              "Season": "Winter",
+              "Indoors": true,
+              "Outdoors": true,
+              "Portrait": "Portraits/Seren_Winter",
+              "Sprite": "Characters/Seren_Winter",
+              "IsIslandAttire": false
+            }
+          ],
+          "MugShotSourceRect": null,
+          "Size": { "X": 16, "Y": 32 },
+          "Breather": true,
+          "BreathChestRect": null,
+          "BreathChestPosition": null,
+          "Shadow": null,
+          "EmoteOffset": { "X": 0, "Y": 0 },
+          "ShakePortraits": [ 5, 8 ],
+          "KissSpriteIndex": 33,
+          "KissSpriteFacingRight": false,
+          "HiddenProfileEmoteSound": "dwop",
+          "HiddenProfileEmoteDuration": 5000,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 3,
+          "HiddenProfileEmoteFrameDuration": 250.0,
+          "FormerCharacterNames": [],
+          "CustomFields": null
+        }
+      },
+      "When": {
+        "HasDialogueAnswer |contains=CBR_SEREN_11": false
+      }
+    },
+    {
+      "LogName": "Datable",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": [ "Seren" ],
+      "Entries": {
+        "CanBeRomanced": true
+      },
+      "When" : {
+        "HasSeenEvent": "CBRSeren_Evt10_2"
+      }
+    },
+    {
+      "LogName": "Change name",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": [ "Seren" ],
+      "Entries": {
+        "DisplayName": "세렌"
+      },
+      "When": {
+        "HasDialogueAnswer": "CBR_SEREN_50"
+      }
+    },
+    {
+      "LogName": "Invisible",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Seren": {
+          "DisplayName": " ",
+          "Calendar": "HiddenAlways",
+          "SocialTab": "HiddenAlways",
+          "HomeRegion": "Desert",
+          "CanSocialize": false,
+          "CanBeRomanced": false,
+          "EndSlideShow": "Hidden",
+          "SpawnIfMissing": false,
+          "MugShotSourceRect": { "X": 1, "Y": 1 },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Beach",
+              "Tile": { "X": 10000, "Y": 10000 }
+            }
+          ]
+        }
+      },
+      "When": {
+        "HasDialogueAnswer": "CBR_SEREN_11"
+      }
+    },
+
+
+
+    {
+      "LogName": "NineTailed",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries" : {
+        "NineTailed": {
+          "DisplayName": "NineTailed",
+          "HomeRegion": "Desert",
+          "Calendar": "HiddenAlways",
+          "SocialTab": "HiddenAlways",
+          "CanSocialize": false,
+          "CanBeRomanced": false,
+          "EndSlideShow": "Hidden",
+          "SpawnIfMissing": false,
+          "Breather": false,
+          "MugShotSourceRect": { "X": 1, "Y": 1 },
+          "Shadow": { 
+            "Visible": false
+          },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Beach",
+              "Tile": { "X": 10000, "Y": 10000 }
+            }
+          ],
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any 112"
+        }
+      }
+    },
+
+    {
+      "LogName": "IY",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "LittleWitch": {
+          "DisplayName": "마녀",
+          "TextureName": "LittleWitch",
+          "Calendar": "HiddenAlways",
+          "SocialTab": "HiddenAlways",
+          "CanSocialize": false,
+          "CanBeRomanced": false,
+          "EndSlideShow": "Hidden",
+          "SpawnIfMissing": false,
+          "MugShotSourceRect": { "X": 1, "Y": 1 },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Beach",
+              "Tile": { "X": -1000, "Y": -1000 }
+            }
+          ],
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any CBRSeren_Evt8"
+        }
+      },
+      "When" : {
+        "HasSeenEvent |contains=CBRSeren_Evt10_2": false
+      }
+    }
+
+    
+
+
+
+  ]
+}

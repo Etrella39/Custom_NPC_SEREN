@@ -1,0 +1,45 @@
+[
+
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.Peach",
+    "minAmount": 20,
+    "maxAmount": 20
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.Diamond",
+    "minAmount": 8,
+    "maxAmount": 8
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.PrismaticShard",
+    "minAmount": 5,
+    "maxAmount": 5
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.FairyRose",
+    "minAmount": 20,
+    "maxAmount": 20
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.Amethyst",
+    "minAmount": 10,
+    "maxAmount": 10
+  },
+  {
+    "minRequiredHearts": 0,
+    "maxRequiredHearts": 20,
+    "objectID": "StardewValley.Object.Aquamarine",
+    "minAmount": 10,
+    "maxAmount": 10
+  } 
+]

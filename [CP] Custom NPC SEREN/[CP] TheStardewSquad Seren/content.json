@@ -1,0 +1,1058 @@
+{
+  "Format": "2.7.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "ThaliaFawnheart.TheStardewSquad/Dialogue",
+      "Entries": {
+
+        "friendshipTooLow.Seren.1": {
+          "Key": "{{i18n:friendshipTooLow.Seren.1 |name={{PlayerName}} }}",
+          "NpcName": "Seren",
+          "DialogueType": "FriendshipTooLow",
+          "Priority": -1
+        },
+        "friendshipTooLow.Seren.2": {
+          "Key": "{{i18n:friendshipTooLow.Seren.2 |name={{PlayerName}} }}",
+          "NpcName": "Seren",
+          "DialogueType": "FriendshipTooLow",
+          "Priority": -1
+        },
+        "friendshipTooLow.Seren.3": {
+          "Key": "{{i18n:friendshipTooLow.Seren.3 |name={{PlayerName}} }}",
+          "NpcName": "Seren",
+          "DialogueType": "FriendshipTooLow",
+          "Priority": -1
+        },
+
+
+        "recruit.Seren.low.1": {
+          "Key": "{{i18n:recruit.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.low.2": {
+          "Key": "{{i18n:recruit.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.low.3": {
+          "Key": "{{i18n:recruit.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "dismiss.Seren.low.1": {
+          "Key": "{{i18n:dismiss.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.low.2": {
+          "Key": "{{i18n:dismiss.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.low.3": {
+          "Key": "{{i18n:dismiss.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.low.4": {
+          "Key": "{{i18n:dismiss.Seren.low.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "idle.Seren.low.town.1": {
+          "Key": "{{i18n:idle.Seren.low.town.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.town.2": {
+          "Key": "{{i18n:idle.Seren.low.town.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.town.3": {
+          "Key": "{{i18n:idle.Seren.low.town.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.forest.1": {
+          "Key": "{{i18n:idle.Seren.low.forest.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.forest.2": {
+          "Key": "{{i18n:idle.Seren.low.forest.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.forest.3": {
+          "Key": "{{i18n:idle.Seren.low.forest.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.forest.4": {
+          "Key": "{{i18n:idle.Seren.low.forest.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.mountain.1": {
+          "Key": "{{i18n:idle.Seren.low.mountain.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Mountain",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.mountain.2": {
+          "Key": "{{i18n:idle.Seren.low.mountain.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Mountain",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.farm.1": {
+          "Key": "{{i18n:idle.Seren.low.farm.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.farm.2": {
+          "Key": "{{i18n:idle.Seren.low.farm.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.farm.3": {
+          "Key": "{{i18n:idle.Seren.low.farm.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.farm.4": {
+          "Key": "{{i18n:idle.Seren.low.farm.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.mines.1": {
+          "Key": "{{i18n:idle.Seren.low.mines.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.mines.2": {
+          "Key": "{{i18n:idle.Seren.low.mines.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.mines.3": {
+          "Key": "{{i18n:idle.Seren.low.mines.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.mines.4": {
+          "Key": "{{i18n:idle.Seren.low.mines.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.generic.1": {
+          "Key": "{{i18n:idle.Seren.low.generic.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.generic.2": {
+          "Key": "{{i18n:idle.Seren.low.generic.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.low.generic.3": {
+          "Key": "{{i18n:idle.Seren.low.generic.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "attacking.Seren.low.1": {
+          "Key": "{{i18n:attacking.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.low.2": {
+          "Key": "{{i18n:attacking.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.low.3": {
+          "Key": "{{i18n:attacking.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.low.4": {
+          "Key": "{{i18n:attacking.Seren.low.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "lumbering.Seren.low.1": {
+          "Key": "{{i18n:lumbering.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "lumbering.Seren.low.2": {
+          "Key": "{{i18n:lumbering.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "lumbering.Seren.low.3": {
+          "Key": "{{i18n:lumbering.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "mining.Seren.low.1": {
+          "Key": "{{i18n:mining.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.low.2": {
+          "Key": "{{i18n:mining.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.low.3": {
+          "Key": "{{i18n:mining.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.low.4": {
+          "Key": "{{i18n:mining.Seren.low.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "watering.Seren.low.1": {
+          "Key": "{{i18n:watering.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.low.2": {
+          "Key": "{{i18n:watering.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.low.3": {
+          "Key": "{{i18n:watering.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.low.4": {
+          "Key": "{{i18n:watering.Seren.low.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "harvesting.Seren.low.1": {
+          "Key": "{{i18n:harvesting.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "harvesting.Seren.low.2": {
+          "Key": "{{i18n:harvesting.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "harvesting.Seren.low.3": {
+          "Key": "{{i18n:harvesting.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "foraging.Seren.low.1": {
+          "Key": "{{i18n:foraging.Seren.low.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+        "foraging.Seren.low.2": {
+          "Key": "{{i18n:foraging.Seren.low.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+        "foraging.Seren.low.3": {
+          "Key": "{{i18n:foraging.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+
+        // ===================================
+        // Seren - 8
+        // ===================================
+
+        "recruit.Seren.high.1": {
+          "Key": "{{i18n:recruit.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.high.2": {
+          "Key": "{{i18n:recruit.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.high.3": {
+          "Key": "{{i18n:recruit.Seren.high.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.high.4": {
+          "Key": "{{i18n:recruit.Seren.high.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "dismiss.Seren.high.1": {
+          "Key": "{{i18n:dismiss.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.high.2": {
+          "Key": "{{i18n:dismiss.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.high.3": {
+          "Key": "{{i18n:dismiss.Seren.high.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "idle.Seren.high.town.1": {
+          "Key": "{{i18n:idle.Seren.high.town.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.town.2": {
+          "Key": "{{i18n:idle.Seren.high.town.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.town.3": {
+          "Key": "{{i18n:idle.Seren.high.town.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.town.4": {
+          "Key": "{{i18n:idle.Seren.high.town.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.forest.1": {
+          "Key": "{{i18n:idle.Seren.high.forest.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.forest.2": {
+          "Key": "{{i18n:idle.Seren.high.forest.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.forest.3": {
+          "Key": "{{i18n:idle.Seren.high.forest.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.forest.4": {
+          "Key": "{{i18n:idle.Seren.high.forest.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Forest",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.mountain.1": {
+          "Key": "{{i18n:idle.Seren.high.mountain.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Mountain",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.farm.1": {
+          "Key": "{{i18n:idle.Seren.high.farm.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.farm.2": {
+          "Key": "{{i18n:idle.Seren.high.farm.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.farm.3": {
+          "Key": "{{i18n:idle.Seren.high.farm.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.farm.4": {
+          "Key": "{{i18n:idle.Seren.high.farm.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Farm",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.mines.1": {
+          "Key": "{{i18n:idle.Seren.high.mines.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.mines.2": {
+          "Key": "{{i18n:idle.Seren.high.mines.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.mines.3": {
+          "Key": "{{i18n:idle.Seren.high.mines.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.mines.4": {
+          "Key": "{{i18n:idle.Seren.high.mines.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here MineShaft",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.generic.1": {
+          "Key": "{{i18n:idle.Seren.high.generic.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.generic.2": {
+          "Key": "{{i18n:idle.Seren.high.generic.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.generic.3": {
+          "Key": "{{i18n:idle.Seren.high.generic.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.high.generic.4": {
+          "Key": "{{i18n:idle.Seren.high.generic.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "attacking.Seren.high.1": {
+          "Key": "{{i18n:attacking.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.high.2": {
+          "Key": "{{i18n:attacking.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.high.3": {
+          "Key": "{{i18n:attacking.Seren.high.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.high.4": {
+          "Key": "{{i18n:attacking.Seren.high.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "lumbering.Seren.high.1": {
+          "Key": "{{i18n:lumbering.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "lumbering.Seren.high.2": {
+          "Key": "{{i18n:lumbering.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "mining.Seren.high.1": {
+          "Key": "{{i18n:mining.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.high.2": {
+          "Key": "{{i18n:mining.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.high.3": {
+          "Key": "{{i18n:mining.Seren.high.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "watering.Seren.high.1": {
+          "Key": "{{i18n:watering.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.high.2": {
+          "Key": "{{i18n:watering.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.high.3": {
+          "Key": "{{i18n:watering.Seren.high.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.high.4": {
+          "Key": "{{i18n:watering.Seren.high.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "harvesting.Seren.high.1": {
+          "Key": "{{i18n:harvesting.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "harvesting.Seren.high.2": {
+          "Key": "{{i18n:harvesting.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "harvesting.Seren.high.3": {
+          "Key": "{{i18n:harvesting.Seren.high.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "foraging.Seren.high.1": {
+          "Key": "{{i18n:foraging.Seren.high.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+        "foraging.Seren.high.2": {
+          "Key": "{{i18n:foraging.Seren.high.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8",
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+        "foraging.Seren.high.3": {
+          "Key": "{{i18n:foraging.Seren.low.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 0 7",
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+
+        // ===================================
+        // Seren - Spouse
+        // ===================================
+        
+        "recruit.Seren.spouse.1": {
+          "Key": "{{i18n:recruit.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.spouse.2": {
+          "Key": "{{i18n:recruit.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "recruit.Seren.spouse.3": {
+          "Key": "{{i18n:recruit.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Recruit",
+          "Priority": -1
+        },
+        "dismiss.Seren.spouse.1": {
+          "Key": "{{i18n:dismiss.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.spouse.2": {
+          "Key": "{{i18n:dismiss.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.spouse.3": {
+          "Key": "{{i18n:dismiss.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "dismiss.Seren.spouse.4": {
+          "Key": "{{i18n:dismiss.Seren.spouse.4 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Dismiss",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.town.1": {
+          "Key": "{{i18n:idle.Seren.high.town.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.town.2": {
+          "Key": "{{i18n:idle.Seren.high.town.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.town.3": {
+          "Key": "{{i18n:idle.Seren.high.town.3 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.town.4": {
+          "Key": "{{i18n:idle.Seren.high.town.4 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Town",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.forest.1": {
+          "Key": "{{i18n:idle.Seren.spouse.forest.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Forest",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.forest.2": {
+          "Key": "{{i18n:idle.Seren.spouse.forest.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Forest",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.forest.3": {
+          "Key": "{{i18n:idle.Seren.spouse.forest.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Forest",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.mountain.1": {
+          "Key": "{{i18n:idle.Seren.spouse.mountain.1 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Mountain",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.mountain.2": {
+          "Key": "{{i18n:idle.Seren.spouse.mountain.2 |name={{PlayerName}} }}",
+          "Condition": "PLAYER_HEARTS Current Seren 8, LOCATION_NAME Here Mountain",
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.farm.1": {
+          "Key": "{{i18n:idle.Seren.spouse.farm.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Farm",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.farm.2": {
+          "Key": "{{i18n:idle.Seren.spouse.farm.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Farm",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.farm.3": {
+          "Key": "{{i18n:idle.Seren.spouse.farm.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Farm",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.farm.4": {
+          "Key": "{{i18n:idle.Seren.spouse.farm.4 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here Farm",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.mines.1": {
+          "Key": "{{i18n:idle.Seren.spouse.mines.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here MineShaft",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.mines.2": {
+          "Key": "{{i18n:idle.Seren.spouse.mines.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here MineShaft",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.mines.3": {
+          "Key": "{{i18n:idle.Seren.spouse.mines.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "Condition": "LOCATION_NAME Here MineShaft",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.generic.1": {
+          "Key": "{{i18n:idle.Seren.spouse.generic.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.generic.2": {
+          "Key": "{{i18n:idle.Seren.spouse.generic.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "idle.Seren.spouse.generic.3": {
+          "Key": "{{i18n:idle.Seren.spouse.generic.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Idle",
+          "Priority": -1
+        },
+        "attacking.Seren.spouse.1": {
+          "Key": "{{i18n:attacking.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.spouse.2": {
+          "Key": "{{i18n:attacking.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.spouse.3": {
+          "Key": "{{i18n:attacking.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.spouse.4": {
+          "Key": "{{i18n:attacking.Seren.spouse.4 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.spouse.5": {
+          "Key": "{{i18n:attacking.Seren.spouse.5 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "attacking.Seren.spouse.6": {
+          "Key": "{{i18n:attacking.Seren.spouse.6 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Attacking",
+          "Priority": -1
+        },
+        "lumbering.Seren.spouse.1": {
+          "Key": "{{i18n:lumbering.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "lumbering.Seren.spouse.2": {
+          "Key": "{{i18n:lumbering.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "lumbering.Seren.spouse.3": {
+          "Key": "{{i18n:lumbering.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Lumbering",
+          "Priority": -1
+        },
+        "mining.Seren.spouse.1": {
+          "Key": "{{i18n:mining.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.spouse.2": {
+          "Key": "{{i18n:mining.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.spouse.3": {
+          "Key": "{{i18n:mining.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "mining.Seren.spouse.4": {
+          "Key": "{{i18n:mining.Seren.spouse.4 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Mining",
+          "Priority": -1
+        },
+        "watering.Seren.spouse.1": {
+          "Key": "{{i18n:watering.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.spouse.2": {
+          "Key": "{{i18n:watering.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "watering.Seren.spouse.3": {
+          "Key": "{{i18n:watering.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Watering",
+          "Priority": -1
+        },
+        "harvesting.Seren.spouse.1": {
+          "Key": "{{i18n:harvesting.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "harvesting.Seren.spouse.2": {
+          "Key": "{{i18n:harvesting.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "harvesting.Seren.spouse.3": {
+          "Key": "{{i18n:harvesting.Seren.spouse.3 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Harvesting",
+          "Priority": -1
+        },
+        "foraging.Seren.spouse.1": {
+          "Key": "{{i18n:foraging.Seren.spouse.1 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        },
+        "foraging.Seren.spouse.2": {
+          "Key": "{{i18n:foraging.Seren.spouse.2 |name={{PlayerName}} }}",
+          "IsSpouse": true,
+          "NpcName": "Seren",
+          "DialogueType": "Foraging",
+          "Priority": -1
+        }
+
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "ThaliaFawnheart.TheStardewSquad/IdleAnimations",
+      "Entries": {
+        "SerenTail": {
+          "NpcName": "Seren",
+          "AnimationName": "Seren_Tail"
+        }
+      }
+    }
+  ]
+}

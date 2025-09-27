@@ -1,0 +1,98 @@
+{
+  "Changes": [
+
+    {	
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "SerenPortrait": "SerenPortrait/painting/2 2/2 2/1/999/-1/세레나 초상화/0/Mods\\CBR.SEREN\\SerenPortrait14/true",
+        "SerenPortraitWedding": "SerenPortraitWedding/painting/2 2/2 2/1/999/-1/세레나 초상화 (웨딩)/2/Mods\\CBR.SEREN\\SerenPortrait14/true"
+      }	
+    },
+    
+    {	
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "Traveler", "Items" ],
+      "Entries": {
+        "SerenPortrait": {
+          "ActionsOnPurchase": null,
+          "CustomFields": null,
+          "TradeItemId": null,
+          "TradeItemAmount": 1,
+          "Price": 30000,
+          "ApplyProfitMargins": null,
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "AvoidRepeat": false,
+          "UseObjectDataPrice": false,
+          "IgnoreShopPriceModifiers": false,
+          "PriceModifiers": null,
+          "PriceModifierMode": "Stack",
+          "AvailableStockModifiers": null,
+          "AvailableStockModifierMode": "Stack",
+          "Condition": "ANY \"PLAYER_HEARTS Current Seren 14, PLAYER_HAS_SEEN_EVENT Current CBRSeren_Evt14\"",
+          "Id": "(F)SerenPortrait",
+          "ItemId": "(F)SerenPortrait",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": -1,
+          "MaxStack": -1,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": "Stack",
+          "QualityModifiers": null,
+          "QualityModifierMode": "Stack",
+          "ModData": null,
+          "PerItemCondition": null
+        },
+        "SerenPortraitTail": {
+          "ActionsOnPurchase": null,
+          "CustomFields": null,
+          "TradeItemId": null,
+          "TradeItemAmount": 1,
+          "Price": 30000,
+          "ApplyProfitMargins": null,
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "AvoidRepeat": false,
+          "UseObjectDataPrice": false,
+          "IgnoreShopPriceModifiers": false,
+          "PriceModifiers": null,
+          "PriceModifierMode": "Stack",
+          "AvailableStockModifiers": null,
+          "AvailableStockModifierMode": "Stack",
+          "Condition": "ANY \"PLAYER_HEARTS Current Seren 14, PLAYER_HAS_SEEN_EVENT Current CBRSeren_Evt14\"",
+          "Id": "(F)SerenPortraitWedding",
+          "ItemId": "(F)SerenPortraitWedding",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": -1,
+          "MaxStack": -1,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": "Stack",
+          "QualityModifiers": null,
+          "QualityModifierMode": "Stack",
+          "ModData": null,
+          "PerItemCondition": null
+        }
+      }
+    },
+
+    {
+			"Action": "Load",
+			"Target": "Mods/CBR.SEREN/SerenPortrait14",
+			"FromFile": "assets/img/Objects/SerenPortrait14.png"
+		}
+
+  ]
+}
